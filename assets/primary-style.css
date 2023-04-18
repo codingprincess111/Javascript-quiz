@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*border: 1px solid #F3DEBA;*/
+    font-family: monospace;
+}
+
+body {
+    background-color: #A9907E;
+    overflow: hidden;
+    
+}
+
+p {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+button {
+    outline:none;
+    background-color: rgba(192, 225, 192, 0.929);
+    color: black;
+    font-size: 1.5em;
+
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+
+}
+
+
+/*outer container section*/
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+
+}
+
+
+
+/*top bar section*/
+
+.top-bar p {
+    float: right;
+}
+
+/*inner container section*/
+
+.inner-container {
+    background-color: beige;
+    height: 100%;
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+/*header and quiz intro*/
+
+.quiz-intro, main {
+    margin-bottom: 15vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #675D50;
+    display: none;
+}
+
+.quiz-intro p {
+    text-align: center;
+}
+
+.quiz-intro button {
+    display: block;
+    margin: auto;
+}
+
+
+/*main quiz content*/
+
+main {
+    display: block;
+}
+
+/*questions*/
+
+.questions {
+    display: none;
+}
+
+/*quiz finish screen*/
+
+.quiz-finished {
+    display: none;
+}
+
+/*highscore*/
+
+.highscore {
+    display: block;
+
+}
+
+.highscore ol {
+    overflow-y: scroll;
+    max-height: 100px;
+}
