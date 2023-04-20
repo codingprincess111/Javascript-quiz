@@ -2,15 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    /*border: 1px solid #F3DEBA;*/
     font-family: monospace;
 }
 
 body {
     background-color: #A9907E;
-    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     
+}
+
+div.card {
+    padding: 70px;
+    position: relative;
+    color: lightskyblue;
+  
 }
 
 p {
@@ -27,19 +35,17 @@ button {
 
 }
 
-h1, h2 {
+h1 {
     text-align: center;
 }
 
-li {
-    list-style: none;
+ul {
+    list-style: 75px;
 
 }
 
 
-/*outer container section*/
-
-.outer-container {
+.container navbar-container {
     padding: 10px;
     height: 100vh;
     display: flex;
@@ -49,73 +55,34 @@ li {
 }
 
 
-
-/*top bar section*/
-
-.top-bar p {
-    float: right;
-}
-
-/*inner container section*/
-
-.inner-container {
-    background-color: beige;
-    height: 100%;
-    width:50%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-
-/*header and quiz intro*/
-
 .quiz-intro, main {
     margin-bottom: 15vh;
     margin-left: 15%;
     margin-right: 15%;
     background-color: #675D50;
     display: none;
-}
-
-.quiz-intro p {
-    text-align: center;
-}
-
-.quiz-intro button {
-    display: block;
-    margin: auto;
-}
-
-
-/*main quiz content*/
-
-main {
     display: block;
 }
 
-/*questions*/
-
-.questions {
-    display: none;
+li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 23px;
+    background-color: purple;
 }
-
-/*quiz finish screen*/
-
-.quiz-finished {
-    display: none;
+  
+#indicator {
+    font-style: italic;
+    font-size: 60px;
 }
+  
+.highscore-element {
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 30px;
+    background-color: purple;
 
-/*highscore*/
-
-.highscore {
-    display: block;
-
-}
-
-.highscore ol {
-    overflow-y: scroll;
-    max-height: 100px;
 }
