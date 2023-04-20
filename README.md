@@ -8,7 +8,9 @@ Once the quiz has been loaded into your web browser, click the "Start Quiz" butt
 
 ### Screenshot
 
-[screenshot] (./assets/javascript-quiz.png)
+[screenshot](./assets/javascript-quiz.png)
+
+
 
 
 ### Sources and credits
