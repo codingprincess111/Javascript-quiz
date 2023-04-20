@@ -10,7 +10,8 @@ Once the quiz has been loaded into your web browser, click the "Start Quiz" butt
 
 [screenshot](./assets/javascript-quiz.png)
 
-
+this website can be found at  https://codingprincess111.github.io/Javascript-quiz/
+this repository can be found at https://github.com/codingprincess111/Javascript-quiz
 
 
 ### Sources and credits
